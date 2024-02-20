@@ -8,8 +8,11 @@ module.exports = defineConfig({
             password: "wartiyem",
             wrongPassword: "wartiyem123",
             requiredPassword: "wa",
-            name: "wartiyem",
-            image: "https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg",
+            registerName: "wartiyemGod",
+            imageUrl:
+                "https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg",
+            registerEmail: "wartiyem4321@gmail.com",
+            registerPassword: "wartiyem4321",
         },
 
         setupNodeEvents(on, config) {
