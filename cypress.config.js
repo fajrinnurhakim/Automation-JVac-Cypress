@@ -13,6 +13,8 @@ module.exports = defineConfig({
                 "https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg",
             registerEmail: "wartiyem4321@gmail.com",
             registerPassword: "wartiyem4321",
+            currentPassword: "wartiyem",
+            newPassword: "wartiyem123",
         },
 
         setupNodeEvents(on, config) {

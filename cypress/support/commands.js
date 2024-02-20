@@ -26,6 +26,16 @@ Cypress.Commands.add("registerCommand", (name, image, email, password) => {
     cy.get("input#agree.checkbox-xs").click();
     cy.get(".btn.btn-secondary").contains("Register").click();
 });
+
+Cypress.Commands.add(
+    "changePasswordCommand",
+    (currentPassword, newPassword, newConfirmPassword) => {
+        cy.get("#current_password").type(currentPassword);
+        cy.get("#new_password").type(newPassword);
+        cy.get("#new_confirm_password").type(newConfirmPassword);
+        cy.get(".btn.btn-secondary").click();
+    }
+);
 //
 //
 // -- This is a child command --

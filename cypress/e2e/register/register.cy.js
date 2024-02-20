@@ -11,7 +11,7 @@ describe("j-vac App", () => {
     it("Register Failed", () => {
         Register.registerFailed();
     });
-    it("Register Required", () => {
+    it("Register Required Field", () => {
         Register.registerRequired();
     });
 });
