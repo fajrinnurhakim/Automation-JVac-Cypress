@@ -13,7 +13,7 @@ class Navbar {
     }
     jobVacancy() {
         cy.wait(3000);
-        cy.get("ul.menu>li").contains("Job Vacancy").click();
+        cy.get(".navbar-center>ul>li>a").contains("Job Vacancy").click();
         cy.wait(3000);
         cy.url().should("include", "/job-vacancy");
     }
