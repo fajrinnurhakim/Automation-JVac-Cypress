@@ -57,7 +57,7 @@ class Crud {
         cy.get(".navbar-start>.dropdown>summary.btn-ghost>svg").click();
         cy.get("ul.menu").contains("List job vacancy").click();
         cy.get(".sc-cxNGUP.bJZDGN").select("20");
-        cy.get("#cell-12-4056>button.btn-warning").contains("Update").click();
+        cy.get("#cell-12-4073>button.btn-warning").contains("Update").click();
         cy.get("#title").clear().type(crudData["title_update"]);
         cy.get("#company_name").clear().type(crudData["company_name_update"]);
         cy.get("#job_description")
@@ -84,7 +84,7 @@ class Crud {
         cy.get(".navbar-start>.dropdown>summary.btn-ghost>svg").click();
         cy.get("ul.menu").contains("List job vacancy").click();
         cy.get(".sc-cxNGUP.bJZDGN").select("20");
-        cy.get("#cell-12-4056>button.btn-error").contains("Delete").click();
+        cy.get("#cell-12-4073>button.btn-error").contains("Delete").click();
         cy.get(".swal2-popup").should("be.visible");
         cy.get(".swal2-confirm").click();
     }

@@ -11,8 +11,8 @@ module.exports = defineConfig({
             registerName: "wartiyemGod",
             imageUrl:
                 "https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg",
-            registerEmail: "wartiyem5454@gmail.com",
-            registerPassword: "wartiyem5454",
+            registerEmail: "wartiyem54543@gmail.com",
+            registerPassword: "wartiyem54543",
             currentPassword: "wartiyem54",
             newPassword: "wartiyem54",
         },
