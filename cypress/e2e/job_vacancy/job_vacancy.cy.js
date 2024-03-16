@@ -10,7 +10,7 @@ describe("j-vac App", () => {
     it("detail Job Apply", () => {
         Job_vacancy.detailJobApply();
     });
-    it.only("detail Job Apply Required", () => {
+    it("detail Job Apply Required", () => {
         Job_vacancy.detailJobApplyReq();
     });
 });

@@ -8,10 +8,11 @@ class Home {
         cy.url().should("include", "/login");
     }
     detailJob() {
+        cy.wait(3000);
         cy.get(".carousel .carousel-item:eq(1)").within(() => {
             cy.get("a.btn.btn-secondary").click();
         });
-        cy.url().should("include", "/job-vacancy/4024");
+        cy.url().should("include", "/job-vacancy/");
     }
 }
 

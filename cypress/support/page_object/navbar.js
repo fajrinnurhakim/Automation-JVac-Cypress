@@ -7,7 +7,7 @@ class Navbar {
     }
     home() {
         cy.wait(3000);
-        cy.get("ul.menu>li").contains("Home").click();
+        cy.get(".navbar-center>ul.menu>li").contains("Home").click();
         cy.wait(3000);
         cy.url().should("include", "/");
     }

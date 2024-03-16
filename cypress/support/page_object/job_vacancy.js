@@ -10,7 +10,7 @@ class JobVacancy {
     detailJobApply() {
         Navbar.jobVacancy();
         cy.wait(1000);
-        cy.get(".grid-cols-2 > :nth-child(2) .btn").click();
+        cy.get(".grid-cols-2 > :nth-child(1) .btn").click();
         cy.wait(1000);
         cy.get(".btn.btn-secondary").contains("Apply").click();
         cy.wait(1000);
@@ -27,7 +27,7 @@ class JobVacancy {
     detailJobApplyReq() {
         Navbar.jobVacancy();
         cy.wait(1000);
-        cy.get(".grid-cols-2 > :nth-child(2) .btn").click();
+        cy.get(".grid-cols-2 > :nth-child(1) .btn").click();
         cy.wait(1000);
         cy.get(".btn.btn-secondary").contains("Apply").click();
         cy.wait(1000);
