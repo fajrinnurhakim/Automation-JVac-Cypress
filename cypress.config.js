@@ -4,17 +4,17 @@ module.exports = defineConfig({
     e2e: {
         env: {
             BASE_URL: "https://j-vac.netlify.app/",
-            email: "wartiyem123@gmail.com",
-            password: "wartiyem",
+            email: "wartiyem54@gmail.com",
+            password: "wartiyem54",
             wrongPassword: "wartiyem123",
             requiredPassword: "wa",
             registerName: "wartiyemGod",
             imageUrl:
                 "https://www.svgrepo.com/show/384674/account-avatar-profile-user-11.svg",
-            registerEmail: "wartiyem54@gmail.com",
-            registerPassword: "wartiyem54",
-            currentPassword: "wartiyem",
-            newPassword: "wartiyem",
+            registerEmail: "wartiyem545@gmail.com",
+            registerPassword: "wartiyem545",
+            currentPassword: "wartiyem54",
+            newPassword: "wartiyem54",
         },
 
         setupNodeEvents(on, config) {
